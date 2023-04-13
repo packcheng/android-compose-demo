@@ -15,8 +15,10 @@ dependencyResolutionManagement {
         jcenter() // Warning: this repository is going to shut down soon
     }
 }
-rootProject.name = "ComposeDemo"
-include (":app")
 
 // 使用CATALOGS管理依赖
 enableFeaturePreview("VERSION_CATALOGS")
+
+rootProject.name = "ComposeDemo"
+//include (":app")
+include(":app_survey")

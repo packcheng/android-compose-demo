@@ -48,6 +48,8 @@ room = "2.5.0-alpha02"
 secrets = "2.0.1"
 # @keep
 targetSdk = "33"
+versionName = "1.0"
+versionCode = "1"
 
 [libraries]
 accompanist-flowlayout = { module = "com.google.accompanist:accompanist-flowlayout", version.ref = "accompanist" }

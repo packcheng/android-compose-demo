@@ -1,3 +1,12 @@
+//
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
@@ -7,4 +16,7 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "ComposeDemo"
-include ':app'
+include (":app")
+
+// 使用CATALOGS管理依赖
+enableFeaturePreview("VERSION_CATALOGS")

@@ -22,3 +22,4 @@ enableFeaturePreview("VERSION_CATALOGS")
 rootProject.name = "ComposeDemo"
 //include (":app")
 include(":app_survey")
+include(":app_chat")

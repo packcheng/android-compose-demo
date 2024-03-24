@@ -24,3 +24,4 @@ rootProject.name = "ComposeDemo"
 include(":app_survey")
 include(":app_chat")
 include(":app_news")
+include(":app_snack")

@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.packcheng.owl"
+    namespace = "com.packcheng.demo"
     compileSdk = libs.versions.compileSdk.get().toInt()
 
     defaultConfig {
-        applicationId = "com.packcheng.owl"
+        applicationId = "com.packcheng.demo"
         minSdk = libs.versions.minSdk.get().toInt()
         targetSdk = libs.versions.targetSdk.get().toInt()
         versionCode = libs.versions.versionCode.get().toInt()
